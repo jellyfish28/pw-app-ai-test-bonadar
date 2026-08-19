@@ -40,3 +40,15 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Playwright
+playwright-utils/.auth/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Local env files (keep .env.test.example committed)
+.env
+.env.local
+.env.test.*
+!.env.test.example
